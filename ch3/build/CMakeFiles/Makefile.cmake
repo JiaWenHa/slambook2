@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "../examples/CMakeLists.txt"
+  "../q2matrix/CMakeLists.txt"
   "../rpy2matrix/CMakeLists.txt"
   "../useEigen/CMakeLists.txt"
   "../useGeometry/CMakeLists.txt"
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "visualizeGeometry/CMakeFiles/CMakeDirectoryInformation.cmake"
   "examples/CMakeFiles/CMakeDirectoryInformation.cmake"
   "rpy2matrix/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "q2matrix/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -65,4 +67,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "examples/CMakeFiles/plotTrajectory.dir/DependInfo.cmake"
   "examples/CMakeFiles/coordinateTransform.dir/DependInfo.cmake"
   "rpy2matrix/CMakeFiles/rpy2matrix.dir/DependInfo.cmake"
+  "q2matrix/CMakeFiles/q2matrix.dir/DependInfo.cmake"
   )

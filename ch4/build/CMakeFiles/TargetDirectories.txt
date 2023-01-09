@@ -1,0 +1,6 @@
+/home/ros/slambook2/ch4/build/CMakeFiles/rebuild_cache.dir
+/home/ros/slambook2/ch4/build/CMakeFiles/edit_cache.dir
+/home/ros/slambook2/ch4/build/CMakeFiles/useSophus.dir
+/home/ros/slambook2/ch4/build/example/CMakeFiles/rebuild_cache.dir
+/home/ros/slambook2/ch4/build/example/CMakeFiles/edit_cache.dir
+/home/ros/slambook2/ch4/build/example/CMakeFiles/trajectoryError.dir

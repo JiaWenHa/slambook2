@@ -44,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ros/slambook2/ch3/build/visualizeGeometry/cmake_install.cmake")
   include("/home/ros/slambook2/ch3/build/examples/cmake_install.cmake")
   include("/home/ros/slambook2/ch3/build/rpy2matrix/cmake_install.cmake")
+  include("/home/ros/slambook2/ch3/build/q2matrix/cmake_install.cmake")
 
 endif()
 

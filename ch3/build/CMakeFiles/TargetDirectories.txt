@@ -16,3 +16,6 @@
 /home/ros/slambook2/ch3/build/rpy2matrix/CMakeFiles/rebuild_cache.dir
 /home/ros/slambook2/ch3/build/rpy2matrix/CMakeFiles/edit_cache.dir
 /home/ros/slambook2/ch3/build/rpy2matrix/CMakeFiles/rpy2matrix.dir
+/home/ros/slambook2/ch3/build/q2matrix/CMakeFiles/edit_cache.dir
+/home/ros/slambook2/ch3/build/q2matrix/CMakeFiles/rebuild_cache.dir
+/home/ros/slambook2/ch3/build/q2matrix/CMakeFiles/q2matrix.dir

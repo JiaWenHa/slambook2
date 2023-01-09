@@ -8,7 +8,7 @@ using namespace std;
 using namespace Eigen;
 
 // path to trajectory file
-string trajectory_file = "./examples/trajectory.txt";
+string trajectory_file = "../../examples/trajectory.txt";
 
 void DrawTrajectory(vector<Isometry3d, Eigen::aligned_allocator<Isometry3d>>);
 
@@ -64,12 +64,15 @@ void DrawTrajectory(vector<Isometry3d, Eigen::aligned_allocator<Isometry3d>> pos
       Vector3d Yw = poses[i] * (0.1 * Vector3d(0, 1, 0));
       Vector3d Zw = poses[i] * (0.1 * Vector3d(0, 0, 1));
       glBegin(GL_LINES);
-      glColor3f(1.0, 0.0, 0.0);
+      //x坐标轴用红色显示
+      glColor3f(1.0, 0.0, 0.0); 
       glVertex3d(Ow[0], Ow[1], Ow[2]);
       glVertex3d(Xw[0], Xw[1], Xw[2]);
+      //y坐标轴用绿色显示
       glColor3f(0.0, 1.0, 0.0);
       glVertex3d(Ow[0], Ow[1], Ow[2]);
       glVertex3d(Yw[0], Yw[1], Yw[2]);
+      //z坐标轴用蓝色显示
       glColor3f(0.0, 0.0, 1.0);
       glVertex3d(Ow[0], Ow[1], Ow[2]);
       glVertex3d(Zw[0], Zw[1], Zw[2]);

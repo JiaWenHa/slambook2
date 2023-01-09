@@ -1,0 +1,5 @@
+/home/ros/slambook2/ch6/build/CMakeFiles/rebuild_cache.dir
+/home/ros/slambook2/ch6/build/CMakeFiles/edit_cache.dir
+/home/ros/slambook2/ch6/build/CMakeFiles/g2oCurveFitting.dir
+/home/ros/slambook2/ch6/build/CMakeFiles/ceresCurveFitting.dir
+/home/ros/slambook2/ch6/build/CMakeFiles/gaussNewton.dir

@@ -9,4 +9,5 @@ add_subdirectory(useGeometry)
 add_subdirectory(visualizeGeometry)
 add_subdirectory(examples)
 add_subdirectory(rpy2matrix)
+add_subdirectory(q2matrix)
 

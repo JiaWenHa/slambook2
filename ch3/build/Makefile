@@ -188,6 +188,19 @@ rpy2matrix/fast:
 	$(MAKE) -f rpy2matrix/CMakeFiles/rpy2matrix.dir/build.make rpy2matrix/CMakeFiles/rpy2matrix.dir/build
 .PHONY : rpy2matrix/fast
 
+#=============================================================================
+# Target rules for targets named q2matrix
+
+# Build rule for target.
+q2matrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 q2matrix
+.PHONY : q2matrix
+
+# fast build rule for target.
+q2matrix/fast:
+	$(MAKE) -f q2matrix/CMakeFiles/q2matrix.dir/build.make q2matrix/CMakeFiles/q2matrix.dir/build
+.PHONY : q2matrix/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +215,7 @@ help:
 	@echo "... plotTrajectory"
 	@echo "... coordinateTransform"
 	@echo "... rpy2matrix"
+	@echo "... q2matrix"
 .PHONY : help
 
 

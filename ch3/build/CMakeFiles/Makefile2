@@ -58,6 +58,7 @@ all: useGeometry/all
 all: visualizeGeometry/all
 all: examples/all
 all: rpy2matrix/all
+all: q2matrix/all
 
 .PHONY : all
 
@@ -67,6 +68,7 @@ preinstall: useGeometry/preinstall
 preinstall: visualizeGeometry/preinstall
 preinstall: examples/preinstall
 preinstall: rpy2matrix/preinstall
+preinstall: q2matrix/preinstall
 
 .PHONY : preinstall
 
@@ -76,6 +78,7 @@ clean: useGeometry/clean
 clean: visualizeGeometry/clean
 clean: examples/clean
 clean: rpy2matrix/clean
+clean: q2matrix/clean
 
 .PHONY : clean
 
@@ -98,6 +101,24 @@ examples/clean: examples/CMakeFiles/plotTrajectory.dir/clean
 examples/clean: examples/CMakeFiles/coordinateTransform.dir/clean
 
 .PHONY : examples/clean
+
+#=============================================================================
+# Directory level rules for directory q2matrix
+
+# Recursive "all" directory target.
+q2matrix/all: q2matrix/CMakeFiles/q2matrix.dir/all
+
+.PHONY : q2matrix/all
+
+# Recursive "preinstall" directory target.
+q2matrix/preinstall:
+
+.PHONY : q2matrix/preinstall
+
+# Recursive "clean" directory target.
+q2matrix/clean: q2matrix/CMakeFiles/q2matrix.dir/clean
+
+.PHONY : q2matrix/clean
 
 #=============================================================================
 # Directory level rules for directory rpy2matrix
@@ -232,7 +253,7 @@ useGeometry/CMakeFiles/eigenGeometry.dir/clean:
 visualizeGeometry/CMakeFiles/visualizeGeometry.dir/all:
 	$(MAKE) -f visualizeGeometry/CMakeFiles/visualizeGeometry.dir/build.make visualizeGeometry/CMakeFiles/visualizeGeometry.dir/depend
 	$(MAKE) -f visualizeGeometry/CMakeFiles/visualizeGeometry.dir/build.make visualizeGeometry/CMakeFiles/visualizeGeometry.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros/slambook2/ch3/build/CMakeFiles --progress-num=11,12 "Built target visualizeGeometry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros/slambook2/ch3/build/CMakeFiles --progress-num=13,14 "Built target visualizeGeometry"
 .PHONY : visualizeGeometry/CMakeFiles/visualizeGeometry.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +334,7 @@ examples/CMakeFiles/coordinateTransform.dir/clean:
 rpy2matrix/CMakeFiles/rpy2matrix.dir/all:
 	$(MAKE) -f rpy2matrix/CMakeFiles/rpy2matrix.dir/build.make rpy2matrix/CMakeFiles/rpy2matrix.dir/depend
 	$(MAKE) -f rpy2matrix/CMakeFiles/rpy2matrix.dir/build.make rpy2matrix/CMakeFiles/rpy2matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros/slambook2/ch3/build/CMakeFiles --progress-num=9,10 "Built target rpy2matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros/slambook2/ch3/build/CMakeFiles --progress-num=11,12 "Built target rpy2matrix"
 .PHONY : rpy2matrix/CMakeFiles/rpy2matrix.dir/all
 
 # Build rule for subdir invocation for target.
@@ -332,6 +353,33 @@ rpy2matrix: rpy2matrix/CMakeFiles/rpy2matrix.dir/rule
 rpy2matrix/CMakeFiles/rpy2matrix.dir/clean:
 	$(MAKE) -f rpy2matrix/CMakeFiles/rpy2matrix.dir/build.make rpy2matrix/CMakeFiles/rpy2matrix.dir/clean
 .PHONY : rpy2matrix/CMakeFiles/rpy2matrix.dir/clean
+
+#=============================================================================
+# Target rules for target q2matrix/CMakeFiles/q2matrix.dir
+
+# All Build rule for target.
+q2matrix/CMakeFiles/q2matrix.dir/all:
+	$(MAKE) -f q2matrix/CMakeFiles/q2matrix.dir/build.make q2matrix/CMakeFiles/q2matrix.dir/depend
+	$(MAKE) -f q2matrix/CMakeFiles/q2matrix.dir/build.make q2matrix/CMakeFiles/q2matrix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros/slambook2/ch3/build/CMakeFiles --progress-num=9,10 "Built target q2matrix"
+.PHONY : q2matrix/CMakeFiles/q2matrix.dir/all
+
+# Build rule for subdir invocation for target.
+q2matrix/CMakeFiles/q2matrix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/slambook2/ch3/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 q2matrix/CMakeFiles/q2matrix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/slambook2/ch3/build/CMakeFiles 0
+.PHONY : q2matrix/CMakeFiles/q2matrix.dir/rule
+
+# Convenience name for target.
+q2matrix: q2matrix/CMakeFiles/q2matrix.dir/rule
+
+.PHONY : q2matrix
+
+# clean rule for target.
+q2matrix/CMakeFiles/q2matrix.dir/clean:
+	$(MAKE) -f q2matrix/CMakeFiles/q2matrix.dir/build.make q2matrix/CMakeFiles/q2matrix.dir/clean
+.PHONY : q2matrix/CMakeFiles/q2matrix.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
