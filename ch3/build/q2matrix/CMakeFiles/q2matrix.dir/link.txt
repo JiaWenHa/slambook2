@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -O3 -DNDEBUG  -rdynamic CMakeFiles/q2matrix.dir/q2matrix.cpp.o  -o q2matrix 
